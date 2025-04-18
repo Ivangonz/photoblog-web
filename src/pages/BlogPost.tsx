@@ -1,9 +1,9 @@
 import { useParams } from "react-router";
 
-const Photo = () => {
+const BlogPost = () => {
   const { id } = useParams();
 
   return <div>URL params: {id} </div>;
 };
 
-export default Photo;
+export default BlogPost;
